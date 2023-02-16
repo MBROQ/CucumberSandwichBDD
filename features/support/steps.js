@@ -34,7 +34,7 @@ When("a fibonacci sequence initialized to {string}", function (value) {
         this.fibonacci.init(value);
 
     } catch {
-        this.hasThrown();
+        this.itThrew();
     }
 });
 
